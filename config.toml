@@ -1,0 +1,3 @@
+baseURL = 'http://abulman.co.uk/'
+locale = 'en-gb'
+title = 'My New Hugo Site'
