@@ -1,0 +1,21 @@
+# FAQ
+
+## What websites have you been involved in?
+
+There has been a number over the years, but the three main ones that immediately spring to mind are:
+
+- _binweevils.com (2010)_ Bin Weevils is a flash-based game/social-network/MMORPG for 7-13 year olds. I was brought in to take special responsibilities for **scaling** and optimisation.  The initial intent was to scale up from an initial ~4000 concurrent players, and to survive being advertised on at TV.  When I left, there were often **10,000+ concurrent users online**, which was handled without issues by the systems I had put into place.My skills with Mysql and PHP scaling technologies achieved that through 2010 with improved Apache, Mysql and PHP layers of the stack and other improvements such as use of Memcached for both cache and transient storage.
+>  From the servers that I controlled, there was **in excess of 200 million hits per month (99.9% PHP, and peaking at over 20 Million hits/day)**, from a pair of PHP application servers and with 20+TB data delivered across the entire site per month, including fully dynamic PHP responses to Flash, CDN sourced flash/images & streaming video.
+
+- _btowb.com (2003-2004)_ - Served images and tracked views/clicks for BTOpenworld before, and after its transition from BTO's internal mail system to the Yahoo mail platform. Datasouth UK Ltd wrote the HTML-based emails and I was the sysadmin of the systems that served the content. When there are over 600,000 emails being sent overnight, it's quite a rush when businesses all turn on the computers and start to download/read their emails at 9am the following morning. Its only because of the systems I put in place (a specialist image web-server) that enabled a single, unassuming webserver, that also dealt with other tasks, to be able to keep up with what could be over 750 file requests per second, and as many as 350 simultaneous requests. I also wrote a simple system that sent customised emails to in excess of 250,000 BTclick on BT's behalf.
+
+- _IllicitEncounters.com (2007-2009)_ was a dating website, built originally on an off-the-shelf package that was designed for scaling to a few thousand members. When I joined, just before Valentines day in February 2007, they had reached 75,000 members and had just gone through an extensive rewrite, but still had huge problems with database crashes. After quickly solving these, I spent the following two and a quarter years, working almost entirely on my own, to speed the site up, and improve a large number of aspects of the site, both front-and back-end. The administration and profile approval process was entirely rewritten in PHP5, with Zend Framework, with good use of ajax for interactivity and functionality, while some portions of the main website was cached where it would not affect the usability to save millions of un-required database hits per day. The final items I added were a new Jabber chat system that improved on the original HTTP-based system for vastly better response and usability (also reducing the hits on the webserver by more than half), and a new queue-based system to resize uploaded profile images. As of May 2009, the site had over 320,000 members (and had gone from ~100 members to >400 members online at any one time) while still running with less webserver resources.
+
+
+### What is a 'technical architect'?
+
+Infrastructure planning for scaling. Multiple machines, and/or multiple services on one or more machines to help to scale up a website/service to more than would otherwise be possible from a single machine and a standard website installation. This can involve the use of additional specialised webservers, caching systems (with such tools as APC & Memcached) and other tools to help 'scale out' the work required for a site across multiple machines, as well as the use of external services, such as Content Delivery Networks (CDNs). (more todo)
+
+### What qualifications do you have?
+
+There aren't many relevant qualifications, in fact I believe most of my best start with http:// - my work (unfortunately, so much of that is not generally publicly available). One exam result that is quite close to my heart is the Zend Certified Engineer, since 4th June 2009. At the moment, there are only 5,000 qualified ZCEs listed on the 'Zend Yellow Pages'. with around 310 currently in the UK.
