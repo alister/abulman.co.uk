@@ -1,0 +1,15 @@
+<h1>{{ .Site.Params.author }}</h1>
+{{ if reflect.IsSlice .Site.Params.info }}
+<h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
+{{ else }}
+<h2>{{ .Site.Params.info | markdownify }}</h2>
+{{ end }}
+
+<p>Check out my My <a href="https://stackoverflow.com/users/6216/alister-bulman">StackOverflow profile</a>, <a href="https://github.com/alister">Github</a>, or tech blogs (<a href="https://www.phpscaling.com/">PHP Scaling</a>, <a href="https://alister.github.io/">Professional blog</a>) for some of my skills.</p>
+
+<a href="https://stackoverflow.com/users/6216/alister-bulman" class="stackOverflowLinkButton">	My StackOverflow Profile</a>
+
+<p>I'm a LAMP-stack devops specialist, that loves to keep up with technology and write some really elegant software code to help my sites handle large scale and large numbers of users.</p>
+
+<h3>Specialties</h3>
+<p>Linux and LAMP system architecture, Scaling & Ops. PHP Development, Symfony, and testing with PhpUnit/Behat.</p>
