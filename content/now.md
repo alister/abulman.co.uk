@@ -1,5 +1,6 @@
 # /Now
 
+> Last update: November 6th, 2026.
 
 Hi, I’m Alister Bulman. I live in West London and **I am not looking for my next role**, When I do, it will be most ideally, fully-remote, developing Symfony v8+ and PHP v8.4+ based sites and tools. If you are looking for an Senior PHP developer - let me know.
 
@@ -17,7 +18,7 @@ In the meantime, I'm:
 - Releasing & contributing to opensource code that helps produce some great results for others
 - Learning all the time - how to write better software, and to get it out where people can use it. For me, the saddest thing is code that isn't being used to help people, and companies to achieve a positive end - for themselves, their companies, and enthusiastic customers who all gain from the results.
 
-As my activities change, I’ll update this page. Last update was on October 27th, 2026.
+As my activities change, I’ll update this page.
 
 > CREDIT: I stole the idea for this page from [Derek Sivers](https://sive.rs/nowff).
 >

@@ -48,8 +48,7 @@ watch:
 
 .PHONY: build
 build: clean
-	$(HUGO)           --verbose --cleanDestinationDir --enableGitInfo --minify \
-		--destination public/
+	$(HUGO) build --cleanDestinationDir --enableGitInfo --minify --destination public/
 
 ##
 
